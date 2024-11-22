@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Quote</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quote-app">
+    <h1 class="app-heading">Daily Quotes</h1>
+    <select id="categorySelect">
+      <option value="happiness">Happiness</option>
+      <option value="inspirational">Inspirational</option>
+      <option value="life">Life</option>
+      <option value="love">Love</option>
+      <option value="funny">Funny</option>
+      <option value="students">Students</option>
+      <option value="friendship">Friendship</option>
+      <option value="motivational">Motivational</option>
+    </select>
+    <div id="quoteContainer" class="quote-container">Loading...</div>
+    <div class="button-group">
+      <button id="fetchQuote">Get New Quote</button>
+      <button id="copyQuote">Copy</button>
+      <button id="saveQuote">Save</button>
+      <button id="shareQuote">Share</button>
+      <button id="viewSavedQuotes"><a href="options.html" target="_blank">View Saved Quotes</a></button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

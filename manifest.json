@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Quote Fetcher",
+    "version": "1.0",
+    "description": "Fetches a new quote from API Ninjas and adds features like saving, sharing, etc.",
+    "author": "Abhay Jhalani", 
+    "permissions": ["storage", "activeTab"],
+    "host_permissions": ["https://api.api-ninjas.com/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+      }
+    },
+    "options_page": "options.html",
+    "icons": {
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    }
+  }

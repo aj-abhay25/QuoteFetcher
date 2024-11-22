@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 400px;
+    position: relative;
+    background-image: url('QuoteBG.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 30%;
+    z-index: -1;
+  }
+  
+  .quote-app {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .app-heading {
+    font-size: 3em;
+    margin: 10px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    width: 120px;
+    border-radius: 5px;
+  }
+  
+  .quote-container {
+    border: 2px solid #f3f4f6;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: black;
+  }
+  
+  .author {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  .button-group button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  #fetchQuote {
+    width: 350px;
+  }
+  
+  #saved {
+    text-align: center;
+  }
+  
+  #savedQuotesContainer {
+    margin: 20px;
+    width: 1200px;
+  }
+  
+  #viewSavedQuotes a {
+    text-decoration: none;
+    color: black;
+    width: 450px;
+  }
+  
+  .saved-quote {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+  }
+  
+  #deleteQuoteButton, #shareQuoteButton, #copyQuoteButton {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .saved-quote {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .quote-actions {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  #noQuotesMessage {
+    text-align: center;
+    color: gray;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 20px 20px;
+  }
+  
+  .buttons-container button {
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  
